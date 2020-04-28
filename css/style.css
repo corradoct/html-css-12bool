@@ -1,0 +1,16 @@
+/* Testo centrato nelle colonne */
+[class*="col-"] {
+  text-align: center;
+  line-height: 300px;
+}
+/* Fine testo centrato nelle colonne */
+
+/* Padding e altezza colonne innestate */
+.padding {
+  padding: 5px;
+}
+
+[class*="col-"] > .container [class*="col-"] {
+  height: calc( 300px - 12px);
+}
+/* Fine padding e altezza colonne innestate */
